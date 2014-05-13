@@ -13,7 +13,7 @@ var chars   = " -_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890
 var flipped = " -_ɐqɔpǝɟɓɥıɾʞlɯuodbɹsʇnʌʍxʎz∀𐐒ƆᗡƎℲ⅁HIſ⋊⅂WNOԀΌᴚS⊥∩ΛMX⅄Z⇂ᄅƐㄣގ9ㄥ860"
 var pname   = process.argv[process.argv.length-1]
 
-if (pname === 'you') {
+if (pname === 'you' || pname === "me") {
   console.log('I would if I could')
   process.exit(1)
 }
